@@ -5,5 +5,5 @@ para a criação de uma aplicação Web, neste cenário temos um site de Adoçã
 
 # Django + Python para Desenvolvimento WEB:
 
-<img src="print.jpg" alt="My cool logo"/>
+<img src="img-rdm/print.jpg" alt="My cool logo"/>
 
