@@ -1,5 +1,11 @@
-##*Ola, seja bem vindo ao projeto PyStackWeek, evento de Python utilizando o Framework Django
-para a criação de uma aplicação Web, neste cenário temos um site de Adoção de Pets;*
+*Ola, seja bem vindo ao projeto PyStackWeek, evento de Python utilizando o Framework DJANGO
+para a criação de uma aplicação WEB, neste cenário temos um SITE para cadastro de Adoção de Pets;*
+
+- Autenticação - Cadastro/Login
+- filtragem de dados;
+- URLs dinamicas;
+- Arquivos de mídia;
+- Criação/Busca de tabela no Banco de Dados - SqLite;
 
 
 
