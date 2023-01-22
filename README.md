@@ -1,12 +1,21 @@
-*Ola, seja bem vindo, 
-Projeto PyStackWeek,
+# Python + Django para Desenvolvimento WEB:
+
+Ola, seja bem vindo, 
+
 Aplicação Web com Python utilizando o Framework Django.
-Cenário: Site para cadastro e Adoção de Pets;*
+Cenário: Site para cadastro e Adoção de Pets.
 
 <img src="https://img.shields.io/badge/PyStack-ADO.TE-green">
+<br>
+<img src="https://img.shields.io/badge/Python-3.11.1-yellowgreen">
+<br>
+<img src="https://img.shields.io/badge/Django-4.1.5-sucess">
+<br>
+<img src="https://img.shields.io/badge/Pyllow-9.4.0-lightgrey">
+<br><br>
 
 
-
+Pontos principais no desenvolvimento da aplicação:
 
 - Autenticação - Cadastro/Login
 - filtragem de dados;
@@ -16,7 +25,7 @@ Cenário: Site para cadastro e Adoção de Pets;*
 
 
 
-# Django + Python para Desenvolvimento WEB:
+
 
 <img src="img-rdm/print.jpg" alt="My cool logo"/>
 
