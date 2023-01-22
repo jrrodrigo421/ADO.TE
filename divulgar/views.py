@@ -5,7 +5,7 @@ from .models import Tag, Raca, Pet
 from django.contrib import messages
 from django.contrib.messages import constants
 from django.shortcuts import redirect
-
+from django.contrib.auth import logout
 
 @login_required
 def novo_pet(request):
@@ -46,7 +46,8 @@ def novo_pet(request):
         
         pet.save()
 
-        return HttpResponse('teste')
+        # return render(request, 'novo_pet.html')
+        return redirect('/divulgar/seus_pets')
 @login_required    
 def seus_pets(request):
 
@@ -68,4 +69,8 @@ def remover_pet(request, id):
 
     return redirect('/divulgar/seus_pets')
 
+def sair(request):
+    logout(request)
+    # redirecionando para a página de login
+    return redirect('/auth/login')
     
