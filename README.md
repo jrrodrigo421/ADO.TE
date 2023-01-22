@@ -1,6 +1,6 @@
 # Python + Django para Desenvolvimento WEB:
 
-Ola, seja bem vindo, 
+Olá, seja bem vindo, 
 
 Aplicação Web com Python utilizando o Framework Django.
 
