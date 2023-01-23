@@ -1,7 +1,7 @@
 .btn-custom-secondary{
-    background-color: #046f0a;
+    background-color: #03481f;
     border: none;
-    box-shadow: 2px 2px 5px 1px rgb(4, 79, 33);
+    box-shadow: 2px 2px 5px 1px rgb(3, 65, 26);
     color: white;
     font-size: 20px;
     padding: 5px 20px 5px 20px;
@@ -25,7 +25,7 @@
 }
 
 .bg-side-plataforma{
-    background-color: #046f0a;
+    background-color: #03481f;
     color: white;
     
 

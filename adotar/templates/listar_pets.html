@@ -17,6 +17,13 @@
             <div class="row">
                 <div class="col-md-2 bg-side sidebar">
                     <h2>ADO.TE</h2>
+                    <h1><a href="{% url 'sair' %}" class="link-float">SAIR</a></h1>
+                    <h1><a href="{% url 'novo_pet' %}" class="link-float">Novo PET</a></h1>
+                    <h1><a href="{% url 'seus_pets' %}" class="link-float">Seus PETs</a></h1>
+                    <h1><a href="{% url 'dashboard' %}" class="link-float">Dashboard</a></h1>
+                    <h1><a href="{% url 'ver_pedido_adocao' %}" class="link-float">Pedidos</a></h1>
+
+
                     <hr>
                     
                     
@@ -33,7 +40,7 @@
                                     </div>
                                 {% endfor %}
                             {% endif %}
-                            <h3 class="font-vinho">Quero divulgar</h3>
+                            <h3 class="font-vinho">Ajude a salvar VIDAS!</h3>
                             <hr>
                             <form action="{% url 'listar_pets' %}" method="GET">
                                 <div class="row">

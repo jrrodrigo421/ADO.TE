@@ -55,7 +55,7 @@ def seus_pets(request):
     if request.method == 'GET':
         pets = Pet.objects.filter(usuario=request.user)
         return render(request,'seus_pets.html', {'pets': pets})
-   
+@login_required 
 def remover_pet(request, id):
     pet = Pet.objects.get(id=id)
     
@@ -97,8 +97,6 @@ def api_adocoes_por_raca(request):
     data = {'qtd_adocoes': qtd_adocoes, 'label': racas}
 
     return JsonResponse(data)
-
-
 
 
 def sair(request):
