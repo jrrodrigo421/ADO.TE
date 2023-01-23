@@ -12,7 +12,11 @@ Pontos principais no desenvolvimento da aplicação:
 - filtragem de dados;
 - URLs dinamicas;
 - Arquivos de mídia;
-- Criação/Busca de tabela no Banco de Dados - SqLite;
+- Criação/Busca/Remoção de tabela no Banco de Dados - SqLite;
+- Envio de email;
+- API;
+- Dashboard com chartjs;
+  
 <br>
 
 <img src="https://img.shields.io/badge/PyStack-ADO.TE-green">
