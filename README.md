@@ -15,7 +15,7 @@ Pontos principais no desenvolvimento da aplicação:
 - Criação/Busca/Remoção de tabela no Banco de Dados - SqLite;
 - Envio de email;
 - API;
-- Dashboard com chartjs;
+- Dashboard com chart Js;
   
 <br>
 
