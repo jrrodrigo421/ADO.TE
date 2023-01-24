@@ -46,7 +46,6 @@ def novo_pet(request):
             pet.tags.add(tag)
         
         pet.save()
-
         # return render(request, 'novo_pet.html')
         return redirect('/divulgar/seus_pets')
 @login_required    
@@ -63,7 +62,6 @@ def remover_pet(request, id):
         messages.add_message(request, constants.ERROR, 'Esse PET não é seu!\n')
         return redirect('/divulgar/seus_pets')
     
-
     pet.delete()
     
     messages.add_message(request, constants.SUCCESS, "Pet removido com sucesso")
@@ -97,7 +95,6 @@ def api_adocoes_por_raca(request):
     data = {'qtd_adocoes': qtd_adocoes, 'label': racas}
 
     return JsonResponse(data)
-
 
 def sair(request):
     logout(request)
