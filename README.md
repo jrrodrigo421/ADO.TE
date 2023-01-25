@@ -25,17 +25,8 @@ Pontos principais no desenvolvimento da aplicação:
 <img src="https://img.shields.io/badge/Pyllow-9.4.0-lightgrey">
 <br>
 
-
-
-
-
-
-
-
 <img src="img-rdm/print.jpg" alt="My cool logo"/>
 
-
-
-
-
-by: Rodrigo Lopes
+<br>
+<br>
+**by: Rodrigo Lopes**
