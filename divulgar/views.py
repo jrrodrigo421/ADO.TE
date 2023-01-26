@@ -81,7 +81,7 @@ def ver_pedido_adocao(request):
 def dashboard(request):
     if request.method == "GET":
         return render(request, 'dashboard.html')
-
+    
 @csrf_exempt
 def api_adocoes_por_raca(request):
     racas = Raca.objects.all()
@@ -100,7 +100,5 @@ def sair(request):
     logout(request)
     # redirecionando para a página de login
     return redirect('/auth/login')
-
-
 
     

@@ -13,7 +13,6 @@ class Tag(models.Model):
     def __str__(self):
         return self.tag
     
-
 class Pet(models.Model):
     choices_status = (('P', 'Para Adocao'), ('A', 'Adotado'))
     usuario = models.ForeignKey(User, on_delete=models.DO_NOTHING)
@@ -27,8 +26,5 @@ class Pet(models.Model):
     raca = models.ForeignKey(Raca, on_delete=models.DO_NOTHING) 
     status = models.CharField(max_length=1, choices=choices_status, default='P')
 
-
     def __str__(self):
         return self.nome
-
-        
