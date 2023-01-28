@@ -6,7 +6,6 @@ from django.contrib.messages import constants
 from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import redirect
 
-
 def cadastro(request):
     if request.user.is_authenticated:
         return redirect('/divulgar/novo_pet')
